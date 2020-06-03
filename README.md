@@ -1,2 +1,2 @@
 # calDAVServer
-calDAVServer
+calDAV test Server

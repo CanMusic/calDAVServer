@@ -1,0 +1,31 @@
+{
+	"name": "caldavserver",
+	"description": "calDAV test Server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "cross-env nodemon src/index",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CanMusic/calDAVServer.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CanMusic/calDAVServer/issues"
+	},
+	"homepage": "https://github.com/CanMusic/calDAVServer#readme",
+	"dependencies": {
+		"fakerator": "^0.3.1",
+		"lodash": "^4.17.15",
+		"moment": "^2.26.0",
+		"urlencoder": "^0.1.0",
+		"xml2js": "^0.4.23"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.2",
+		"nodemon": "^2.0.4"
+	}
+}
